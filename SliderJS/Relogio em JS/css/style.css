@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family:"digital-7.ttf";
+    src: url(../Font/digital-7.ttf);
+}
+
+
+body{
+     background-color: rgb(0, 0, 0);
+}
+#horas{
+     text-align: center;
+     position: relative;  
+     top: 200px;
+     font-size: 10em;
+     font-family:"digital-7.ttf";
+     color: rgb(0, 255, 191);
+}
+
+@media(max-width: 700px){
+      #horas{
+        font-size: 6em;
+      }
+}
